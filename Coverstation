@@ -1,0 +1,15 @@
+Program Converstation;
+
+const
+ H = 'Привет';
+ 
+var
+ name: string;
+
+begin
+ writeln('Привет.Я Вася. А тебя как зовут?');
+ readln(name);
+ writeln(name,',' 'приятно познакомиться!');
+ 
+ 
+end.
