@@ -1,0 +1,26 @@
+Program Calc;
+ 
+var
+ a, b: integer;
+
+begin
+ writeln('Введите число A.');
+ read(a);
+ writeln('Введите число B.');
+ read(b);
+ 
+ writeln('Сумма A и B =', a+b);
+ writeln('Разность A и B =', a-b);
+ writeln('Произведение A и B =', a*b);
+ writeln('Частное A и B =', a/b);
+ 
+ writeln('Квадрат числа A =', a*a);
+ writeln('Квадрат числа B =', b*b);
+ 
+ writeln('Корень из A =', sqrt(a));
+ writeln('Корень из B =', sqrt(b));
+ 
+ writeln('Целое от деления A на B =', a div b );
+ writeln('Остаток от деления A на B =', a mod b );
+ 
+end.
